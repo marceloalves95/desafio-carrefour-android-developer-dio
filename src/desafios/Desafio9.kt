@@ -11,7 +11,7 @@ fun main() {
 
 
     for (i in 0 until n) {
-        var x = readLine()!!.toDouble()
+        val x = readLine()!!.toDouble()
         val prime = isPrime(x)
         print(prime)
 
